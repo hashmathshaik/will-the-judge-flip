@@ -1,0 +1,23 @@
+{
+  "qwen3_1_7b": {
+    "paper_name": "Qwen3-1.7B",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+  },
+  "qwen3_4b": {
+    "paper_name": "Qwen3-4B",
+    "model_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+  },
+  "qwen3_8b": {
+    "paper_name": "Qwen3-8B",
+    "model_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "llama3_1_8b": {
+    "paper_name": "Llama-3.1-8B",
+    "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "note": "Hugging Face access is gated and must be confirmed before the shared run."
+  }
+}

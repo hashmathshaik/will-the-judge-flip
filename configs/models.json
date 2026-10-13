@@ -1,0 +1,47 @@
+{
+  "qwen3_1_7b": {
+    "paper_name": "Qwen3-1.7B",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+  },
+  "qwen3_4b": {
+    "paper_name": "Qwen3-4B",
+    "model_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+  },
+  "qwen3_8b": {
+    "paper_name": "Qwen3-8B",
+    "model_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "qwen3_14b": {
+    "paper_name": "Qwen3-14B",
+    "model_id": "Qwen/Qwen3-14B",
+    "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "license": "apache-2.0"
+  },
+  "qwen3_32b": {
+    "paper_name": "Qwen3-32B",
+    "model_id": "Qwen/Qwen3-32B",
+    "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+    "license": "apache-2.0"
+  },
+  "llama3_1_8b": {
+    "paper_name": "Llama-3.1-8B",
+    "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "note": "Hugging Face access is gated and must be confirmed before the shared run."
+  },
+  "granite3_1_8b": {
+    "paper_name": "Granite-3.1-8B",
+    "model_id": "ibm-granite/granite-3.1-8b-instruct",
+    "revision": "4009206d5fc95d2e65a7b7633e159d6e97e25d35",
+    "license": "apache-2.0"
+  },
+  "mistral7b": {
+    "paper_name": "Mistral-7B-v0.3",
+    "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "license": "apache-2.0"
+  }
+}

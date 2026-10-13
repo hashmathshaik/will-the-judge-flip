@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "bootstrap_repetitions": 2000,
+  "lambda_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "tfidf": {
+    "max_features": 1024,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "sublinear_tf": true,
+    "lowercase": true
+  },
+  "embeddings": {
+    "model_id": "BAAI/bge-base-en-v1.5",
+    "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "max_seq_length": 512,
+    "batch_size": 32,
+    "normalize_embeddings": true
+  },
+  "sampling": {
+    "extra_ab_calls": 5,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0
+  }
+}
